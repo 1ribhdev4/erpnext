@@ -224,7 +224,7 @@ Real Estate,房地產
 Statement of Account,科目狀態
 Pharmaceuticals,製藥
 Is Fixed Asset,是固定的資產
-"Available qty is {0}, you need {1}",可用數量是{0}，則需要{1}
+"Disponível qty is {0}, you need {1}",可用數量是{0}，則需要{1}
 Claim Amount,索賠金額
 Work Order has been {0},工單已{0}
 Applicable on Purchase Order,適用於採購訂單
@@ -1173,7 +1173,7 @@ Fee Creation Status,費用創建狀態
 "Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'",科目餘額已歸為貸方，不允許設為借方
 Balance must be,餘額必須
 Expense Claim Rejected Message,報銷回絕訊息
-Available Qty,可用數量
+Disponível Qty,可用數量
 Default Warehouse to to create Sales Order and Delivery Note,默認倉庫到創建銷售訂單和交貨單
 On Previous Row Total,在上一行共
 Rejected Qty,被拒絕的數量
@@ -1931,7 +1931,7 @@ Support Hour Distribution,支持小時分配
 Maintenance Visit,維護訪問
 Leaving Certificate Number,畢業證書號碼
 "Appointment cancelled, Please review and cancel the invoice {0}",預約已取消，請查看並取消發票{0}
-Available Batch Qty at Warehouse,可用的批次數量在倉庫
+Disponível Batch Qty at Warehouse,可用的批次數量在倉庫
 Is Company Account,是公司帳戶
 Landed Cost Help,到岸成本幫助
 Select Shipping Address,選擇送貨地址
@@ -2088,7 +2088,7 @@ Cannot enroll more than {0} students for this student group.,不能註冊超過{
 Total (Without Tax),總計（不含稅）
 Lead Count,鉛計數
 Lead Count,鉛計數
-Stock Available,現貨供應
+Stock Disponível,現貨供應
 Capacity Planning For (Days),產能規劃的範圍（天）
 Procurement,採購
 None of the items have any change in quantity or value.,沒有一個項目無論在數量或價值的任何變化。
@@ -2277,7 +2277,7 @@ Item {0} is not a serialized Item,項{0}不是一個序列化的項目
 Delivery Settings,交貨設置
 Fetch Data,獲取數據
 Create Receiver List,創建接收器列表
-Available-for-use Date should be after purchase date,可供使用的日期應在購買日期之後
+Disponível-for-use Date should be after purchase date,可供使用的日期應在購買日期之後
 Wheels,車輪
 To Package No.,以包號
 Deferred Revenue Account,遞延收入科目
@@ -3670,7 +3670,7 @@ Default Stock UOM,預設庫存計量單位
 Number of Depreciations Booked,預訂折舊數
 Qty Total,數量總計
 School/University,學校/大學
-Available Qty at Warehouse,有貨數量在倉庫
+Disponível Qty at Warehouse,有貨數量在倉庫
 Billed Amount,帳單金額
 (including),（包括）
 Double Declining Balance,雙倍餘額遞減
@@ -3756,7 +3756,7 @@ Edit Posting Date and Time,編輯投稿時間
 Please set Depreciation related Accounts in Asset Category {0} or Company {1},請設置在資產類別{0}或公司折舊相關科目{1}
 Normal Range,普通範圍
 Academic Year,學年
-Available Selling,可用銷售
+Disponível Selling,可用銷售
 Loyalty Point Entry Redemption,忠誠度積分兌換
 Opening Balance Equity,期初餘額權益
 N,ñ
@@ -3853,7 +3853,7 @@ Purchase Order {0} is not submitted,採購訂單{0}未提交
 Expenses Included In Asset Valuation,資產評估中包含的費用
 Normal reference range for an adult is 16–20 breaths/minute (RCP 2012),成人的正常參考範圍是16-20次呼吸/分鐘（RCP 2012）
 Tariff Number,稅則號
-Available Qty at WIP Warehouse,在WIP倉庫可用的數量
+Disponível Qty at WIP Warehouse,在WIP倉庫可用的數量
 Projected,預計
 Serial No {0} does not belong to Warehouse {1},序列號{0}不屬於倉庫{1}
 Note: System will not check over-delivery and over-booking for Item {0} as quantity or amount is 0,注：系統將不檢查過交付和超額預訂的項目{0}的數量或金額為0,
@@ -3965,7 +3965,7 @@ EDU-FEE-.YYYY.-,EDU-收費.YYYY.-
 Marital Status,婚姻狀況
 Auto Material Request,自動物料需求
 API consumer secret,API消費者秘密
-Available Batch Qty at From Warehouse,在從倉庫可用的批次數量
+Disponível Batch Qty at From Warehouse,在從倉庫可用的批次數量
 Gross Pay - Total Deduction - Loan Repayment,工資總額 - 扣除總額 - 貸款還款
 Current BOM and New BOM can not be same,當前BOM和新BOM不能相同
 Date Of Retirement must be greater than Date of Joining,日期退休必須大於加入的日期
@@ -4676,7 +4676,7 @@ Over Dimensional Cargo (ODC),超尺寸貨物（ODC）
 Hotel Manager,酒店經理
 Set Tax Rule for shopping cart,購物車稅收規則設定
 Taxes and Charges Added,稅費上架
-Depreciation Row {0}: Next Depreciation Date cannot be before Available-for-use Date,折舊行{0}：下一個折舊日期不能在可供使用的日期之前
+Depreciation Row {0}: Next Depreciation Date cannot be before Disponível-for-use Date,折舊行{0}：下一個折舊日期不能在可供使用的日期之前
 Sales Funnel,銷售漏斗
 Abbreviation is mandatory,縮寫是強制性的
 Task Progress,任務進度
@@ -4944,7 +4944,7 @@ Paid Amount,支付的金額
 Explore Sales Cycle,探索銷售週期
 Supervisor,監
 Retention Stock Entry,保留庫存入場
-Available Stock for Packing Items,可用庫存包裝項目
+Disponível Stock for Packing Items,可用庫存包裝項目
 Item Variant,項目變
 Work Order Stock Report,工單庫存報表
 Auto Repeat Detail,自動重複細節
@@ -5028,7 +5028,7 @@ Threshold,閾
 Current BOM,當前BOM表
 Balance (Dr - Cr),平衡（Dr  -  Cr）
 Add Serial No,添加序列號
-Available Qty at Source Warehouse,源倉庫可用數量
+Disponível Qty at Source Warehouse,源倉庫可用數量
 Warranty,保證
 Debit Note Issued,借記發行說明
 Filter based on Cost Center is only applicable if Budget Against is selected as Cost Center,基於成本中心的過濾僅適用於選擇Budget Against作為成本中心的情況
@@ -5761,7 +5761,7 @@ This is a root healthcare service unit and cannot be edited.,這是根醫療保�
 Repair Status,維修狀態
 Add Sales Partners,添加銷售合作夥伴
 Accounting journal entries.,會計日記帳分錄。
-Available Qty at From Warehouse,可用數量從倉庫
+Disponível Qty at From Warehouse,可用數量從倉庫
 Please select Employee Record first.,請選擇員工記錄第一。
 Account for Change Amount,帳戶漲跌額
 Connecting to QuickBooks,連接到QuickBooks,
@@ -6134,9 +6134,9 @@ Authorization Rule,授權規則,
 Authorized Signatory,授權簽字人,
 Auto Material Requests Generated,汽車材料的要求生成,
 Auto repeat document updated,自動重複文件更新,
-Available Qty,可用數量,
-Available Stock for Packing Items,可用庫存包裝項目,
-Available-for-use Date should be after purchase date,可供使用的日期應在購買日期之後,
+Disponível Qty,可用數量,
+Disponível Stock for Packing Items,可用庫存包裝項目,
+Disponível-for-use Date should be after purchase date,可供使用的日期應在購買日期之後,
 Average Age,平均年齡,
 Avg Daily Outgoing,平均每日傳出,
 Avg. Buying Price List Rate,平均。買價格表價格,
@@ -6413,7 +6413,7 @@ Depreciation Date,折舊日期,
 Depreciation Eliminated due to disposal of assets,折舊淘汰因處置資產,
 Depreciation Entry,折舊分錄,
 Depreciation Row {0}: Expected value after useful life must be greater than or equal to {1},折舊行{0}：使用壽命後的預期值必須大於或等於{1},
-Depreciation Row {0}: Next Depreciation Date cannot be before Available-for-use Date,折舊行{0}：下一個折舊日期不能在可供使用的日期之前,
+Depreciation Row {0}: Next Depreciation Date cannot be before Disponível-for-use Date,折舊行{0}：下一個折舊日期不能在可供使用的日期之前,
 Depreciation Row {0}: Next Depreciation Date cannot be before Purchase Date,折舊行{0}：下一個折舊日期不能在購買日期之前,
 Depreciation Schedule,折舊計劃,
 Difference,區別,
@@ -7476,7 +7476,7 @@ Stock Adjustment,庫存調整,
 Stock Ageing,存貨帳齡分析表,
 Stock Analytics,庫存分析,
 Stock Assets,庫存資產,
-Stock Available,現貨供應,
+Stock Disponível,現貨供應,
 Stock Balance,庫存餘額,
 Stock Entry,存貨分錄,
 Stock Entry Detail,存貨分錄明細,

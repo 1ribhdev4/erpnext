@@ -307,13 +307,13 @@ class Asset(AccountsController):
 
 	def validate_in_use_date(self):
 		if not self.available_for_use_date:
-			frappe.throw(_("Available for use date is required"))
+			frappe.throw(_("Disponível for use date is required"))
 
 		for d in self.finance_books:
 			if getdate(d.depreciation_start_date) < getdate(self.available_for_use_date):
 				frappe.throw(
 					_(
-						"Depreciation Row {0}: Depreciation Posting Date cannot be before Available-for-use Date"
+						"Depreciation Row {0}: Depreciation Posting Date cannot be before Disponível-for-use Date"
 					).format(d.idx),
 					title=_("Incorrect Date"),
 				)
@@ -418,7 +418,7 @@ class Asset(AccountsController):
 			return
 
 		if self.available_for_use_date and getdate(self.available_for_use_date) < getdate(self.purchase_date):
-			frappe.throw(_("Available-for-use Date should be after purchase date"))
+			frappe.throw(_("Disponível-for-use Date should be after purchase date"))
 
 	def validate_linked_purchase_docs(self):
 		for doctype_field, doctype_name in [
@@ -526,7 +526,7 @@ class Asset(AccountsController):
 
 			if getdate(row.depreciation_start_date) < getdate(self.available_for_use_date):
 				frappe.throw(
-					_("Row #{0}: Next Depreciation Date cannot be before Available-for-use Date").format(
+					_("Row #{0}: Next Depreciation Date cannot be before Disponível-for-use Date").format(
 						row.idx
 					)
 				)

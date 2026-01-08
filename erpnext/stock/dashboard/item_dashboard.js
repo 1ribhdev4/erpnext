@@ -151,7 +151,7 @@ erpnext.stock.ItemDashboard = class ItemDashboard {
 			this.content.find(".result").css("text-align", "unset");
 			$(frappe.render_template(this.template, context)).appendTo(this.result);
 		} else {
-			var message = __("No Stock Available Currently");
+			var message = __("No Stock Disponível Currently");
 			this.content.find(".result").css("text-align", "center");
 
 			$(`<div class='text-muted' style='margin: 20px 5px;'>
@@ -248,7 +248,7 @@ erpnext.stock.move_item = function (item, source, target, actual_qty, rate, stoc
 				label: __("Quantity"),
 				reqd: 1,
 				fieldtype: "Float",
-				description: __("Available {0}", [actual_qty]),
+				description: __("Disponível {0}", [actual_qty]),
 			},
 			{
 				fieldname: "rate",

@@ -96,7 +96,7 @@ frappe.query_reports["Fixed Asset Register"] = {
 			fieldname: "date_based_on",
 			label: __("Date Based On"),
 			fieldtype: "Select",
-			options: ["Purchase Date", "Available For Use Date"],
+			options: ["Purchase Date", "Disponível For Use Date"],
 			default: "Purchase Date",
 			depends_on: "eval: doc.filter_based_on == 'Date Range' || doc.filter_based_on == 'Fiscal Year'",
 		},

@@ -376,7 +376,7 @@ class ProductionPlanReport:
 				"width": 100,
 			},
 			{"label": _("Order Qty"), "fieldname": "qty_to_manufacture", "fieldtype": "Float", "width": 80},
-			{"label": _("Available"), "fieldname": "available_qty", "fieldtype": "Float", "width": 80},
+			{"label": _("Disponível"), "fieldname": "available_qty", "fieldtype": "Float", "width": 80},
 		]
 
 		fieldname, fieldtype = "delivery_date", "Date"

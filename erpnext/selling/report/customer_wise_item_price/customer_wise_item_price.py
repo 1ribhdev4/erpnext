@@ -35,7 +35,7 @@ def get_columns(filters=None):
 		{"label": _("Item Name"), "fieldname": "item_name", "fieldtype": "Data", "width": 200},
 		{"label": _("Selling Rate"), "fieldname": "selling_rate", "fieldtype": "Currency"},
 		{
-			"label": _("Available Stock"),
+			"label": _("Disponível Stock"),
 			"fieldname": "available_stock",
 			"fieldtype": "Float",
 			"width": 150,

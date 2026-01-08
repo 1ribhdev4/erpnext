@@ -563,7 +563,7 @@ erpnext.utils.select_alternate_items = function (opts) {
 						default: 0,
 						read_only: 1,
 						in_list_view: 1,
-						label: __("Available Qty"),
+						label: __("Disponível Qty"),
 					},
 				],
 			},

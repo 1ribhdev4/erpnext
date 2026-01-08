@@ -773,7 +773,7 @@ erpnext.PointOfSale.Controller = class {
 			if (is_stock_item) {
 				frappe.model.clear_doc(item_row.doctype, item_row.name);
 				frappe.throw({
-					title: __("Not Available"),
+					title: __("Not Disponível"),
 					message: __("Item Code: {0} is not available under warehouse {1}.", [
 						bold_item_code,
 						bold_warehouse,
@@ -785,7 +785,7 @@ erpnext.PointOfSale.Controller = class {
 		} else if (is_stock_item && available_qty < qty_needed) {
 			frappe.throw({
 				message: __(
-					"Stock quantity not enough for Item Code: {0} under warehouse {1}. Available quantity {2} {3}.",
+					"Stock quantity not enough for Item Code: {0} under warehouse {1}. Disponível quantity {2} {3}.",
 					[bold_item_code, bold_warehouse, bold_available_qty, bold_uom]
 				),
 				indicator: "orange",
@@ -802,7 +802,7 @@ erpnext.PointOfSale.Controller = class {
 
 		if (res.message.includes(serial_no)) {
 			frappe.throw({
-				title: __("Not Available"),
+				title: __("Not Disponível"),
 				message: __("Serial No: {0} has already been transacted into another POS Invoice.", [
 					serial_no.bold(),
 				]),

@@ -8,6 +8,6 @@
  "module": "Stock",
  "name": "Warehouse wise Stock Value",
  "owner": "Administrator",
- "source_name": "Warehouse wise Stock Value ",
+ "source_name": "Warehouse wise Stock Value",
  "timeseries": 0
 }

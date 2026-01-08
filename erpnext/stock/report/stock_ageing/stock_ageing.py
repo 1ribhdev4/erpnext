@@ -164,7 +164,7 @@ def get_columns(filters: Filters) -> list[dict]:
 
 	columns.extend(
 		[
-			{"label": _("Available Qty"), "fieldname": "qty", "fieldtype": "Float", "width": 100},
+			{"label": _("Disponível Qty"), "fieldname": "qty", "fieldtype": "Float", "width": 100},
 			{"label": _("Average Age"), "fieldname": "average_age", "fieldtype": "Float", "width": 100},
 		]
 	)

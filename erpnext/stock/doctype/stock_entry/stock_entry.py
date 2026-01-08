@@ -823,7 +823,7 @@ class StockEntry(StockController):
 						frappe.bold(d.item_code),
 					)
 					+ "<br><br>"
-					+ _("Available quantity is {0}, you need {1}").format(
+					+ _("Disponível quantity is {0}, you need {1}").format(
 						frappe.bold(flt(d.actual_qty, d.precision("actual_qty"))), frappe.bold(d.transfer_qty)
 					),
 					NegativeStockError,

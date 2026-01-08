@@ -520,7 +520,7 @@ class SubcontractingReceipt(SubcontractingController):
 				and flt(item.available_qty_for_consumption, precision) - flt(item.consumed_qty, precision) < 0
 			):
 				msg = _(
-					"""Row {0}: Consumed Qty {1} {2} must be less than or equal to Available Qty For Consumption
+					"""Row {0}: Consumed Qty {1} {2} must be less than or equal to Disponível Qty For Consumption
 					{3} {4} in Consumed Items Table."""
 				).format(
 					item.idx,

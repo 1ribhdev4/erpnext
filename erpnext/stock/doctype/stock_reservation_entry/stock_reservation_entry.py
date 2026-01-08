@@ -297,7 +297,7 @@ class StockReservationEntry(Document):
 								entry.db_update()
 						else:
 							msg = _(
-								"Row #{0}: Qty should be less than or equal to Available Qty to Reserve (Actual Qty - Reserved Qty) {1} for Iem {2} against Batch {3} in Warehouse {4}."
+								"Row #{0}: Qty should be less than or equal to Disponível Qty to Reserve (Actual Qty - Reserved Qty) {1} for Iem {2} against Batch {3} in Warehouse {4}."
 							).format(
 								entry.idx,
 								frappe.bold(available_qty_to_reserve),
@@ -465,13 +465,13 @@ class StockReservationEntry(Document):
 				Cannot reserve more than Allowed Qty {} {} for Item {} against {} {}.<br /><br />
 				The <b>Allowed Qty</b> is calculated as follows:<br />
 				<ul>
-					<li>Actual Qty [Available Qty at Warehouse] = {}</li>
+					<li>Actual Qty [Disponível Qty at Warehouse] = {}</li>
 					<li>Reserved Stock [Ignore current SRE] = {}</li>
-					<li>Available Qty To Reserve [Actual Qty - Reserved Stock] = {}</li>
+					<li>Disponível Qty To Reserve [Actual Qty - Reserved Stock] = {}</li>
 					<li>Voucher Qty [Voucher Item Qty] = {}</li>
 					<li>Delivered Qty [Qty delivered against the Voucher Item] = {}</li>
 					<li>Total Reserved Qty [Qty reserved against the Voucher Item] = {}</li>
-					<li>Allowed Qty [Minimum of (Available Qty To Reserve, (Voucher Qty - Delivered Qty - Total Reserved Qty))] = {}</li>
+					<li>Allowed Qty [Minimum of (Disponível Qty To Reserve, (Voucher Qty - Delivered Qty - Total Reserved Qty))] = {}</li>
 				</ul>
 			""".format(
 				frappe.bold(allowed_qty),
@@ -515,7 +515,7 @@ def validate_stock_reservation_settings(voucher: object) -> None:
 def get_available_qty_to_reserve(
 	item_code: str, warehouse: str, batch_no: str | None = None, ignore_sre=None
 ) -> float:
-	"""Returns `Available Qty to Reserve (Actual Qty - Reserved Qty)` for Item, Warehouse and Batch combination."""
+	"""Returns `Disponível Qty to Reserve (Actual Qty - Reserved Qty)` for Item, Warehouse and Batch combination."""
 
 	from erpnext.stock.doctype.batch.batch import get_batch_qty
 
@@ -555,7 +555,7 @@ def get_available_qty_to_reserve(
 def get_available_serial_nos_to_reserve(
 	item_code: str, warehouse: str, has_batch_no: bool = False, ignore_sre=None
 ) -> list[tuple]:
-	"""Returns Available Serial Nos to Reserve (Available Serial Nos - Reserved Serial Nos)` for Item, Warehouse and Batch combination."""
+	"""Returns Disponível Serial Nos to Reserve (Disponível Serial Nos - Reserved Serial Nos)` for Item, Warehouse and Batch combination."""
 
 	from erpnext.stock.doctype.serial_and_batch_bundle.serial_and_batch_bundle import (
 		get_available_serial_nos,

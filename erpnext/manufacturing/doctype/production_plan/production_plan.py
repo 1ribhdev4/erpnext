@@ -991,7 +991,7 @@ class ProductionPlan(Document):
 				+ "<br><br>"
 			)
 			message += _(
-				"If you still want to proceed, please disable 'Skip Available Sub Assembly Items' checkbox."
+				"If you still want to proceed, please disable 'Skip Disponível Sub Assembly Items' checkbox."
 			)
 
 			frappe.msgprint(message, title=_("Note"))
@@ -1111,7 +1111,7 @@ def download_raw_materials(doc, warehouses=None):
 			"Warehouse",
 			"Required Qty as per BOM",
 			"Projected Qty",
-			"Available Qty In Hand",
+			"Disponível Qty In Hand",
 			"Ordered Qty",
 			"Planned Qty",
 			"Reserved Qty for Production",

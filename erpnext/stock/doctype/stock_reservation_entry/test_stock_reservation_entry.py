@@ -57,13 +57,13 @@ class TestStockReservationEntry(FrappeTestCase):
 			get_available_qty_to_reserve,
 		)
 
-		# Case - 1: When `Reserved Qty` is `0`, Available Qty to Reserve = Actual Qty
+		# Case - 1: When `Reserved Qty` is `0`, Disponível Qty to Reserve = Actual Qty
 		available_qty_to_reserve = get_available_qty_to_reserve(self.sr_item.name, self.warehouse)
 		expected_available_qty_to_reserve = get_stock_balance(self.sr_item.name, self.warehouse)
 
 		self.assertEqual(available_qty_to_reserve, expected_available_qty_to_reserve)
 
-		# Case - 2: When `Reserved Qty` is `> 0`, Available Qty to Reserve = Actual Qty - Reserved Qty
+		# Case - 2: When `Reserved Qty` is `> 0`, Disponível Qty to Reserve = Actual Qty - Reserved Qty
 		sre = make_stock_reservation_entry(
 			item_code=self.sr_item.name,
 			warehouse=self.warehouse,
@@ -209,7 +209,7 @@ class TestStockReservationEntry(FrappeTestCase):
 
 		actual_qty = get_stock_balance(self.sr_item.name, self.warehouse)
 
-		# Step - 2: Try to consume (Transfer/Issue/Deliver) the Available Qty via Stock Entry or Delivery Note, should throw `NegativeStockError`.
+		# Step - 2: Try to consume (Transfer/Issue/Deliver) the Disponível Qty via Stock Entry or Delivery Note, should throw `NegativeStockError`.
 		se = make_stock_entry(
 			item_code=self.sr_item.name,
 			qty=actual_qty,
@@ -221,7 +221,7 @@ class TestStockReservationEntry(FrappeTestCase):
 		self.assertRaises(NegativeStockError, se.submit)
 		se.cancel()
 
-		# Step - 3: Unreserve the stock and consume the Available Qty via Stock Entry.
+		# Step - 3: Unreserve the stock and consume the Disponível Qty via Stock Entry.
 		cancel_stock_reservation_entries(so.doctype, so.name)
 
 		se = make_stock_entry(
@@ -266,7 +266,7 @@ class TestStockReservationEntry(FrappeTestCase):
 			warehouse=self.warehouse,
 		)
 
-		# Test - 1: Stock should not be reserved if the Available Qty to Reserve is less than the Ordered Qty and Partial Reservation is disabled in Stock Settings.
+		# Test - 1: Stock should not be reserved if the Disponível Qty to Reserve is less than the Ordered Qty and Partial Reservation is disabled in Stock Settings.
 		with change_settings("Stock Settings", {"allow_partial_reservation": 0}):
 			so.create_stock_reservation_entries()
 			self.assertFalse(has_reserved_stock("Sales Order", so.name))
@@ -287,7 +287,7 @@ class TestStockReservationEntry(FrappeTestCase):
 			cancel_stock_reservation_entries("Sales Order", so.name)
 			se.cancel()
 
-			# Test - 3: Stock should be fully Reserved if the Available Qty to Reserve is greater than the Un-reserved Qty.
+			# Test - 3: Stock should be fully Reserved if the Disponível Qty to Reserve is greater than the Un-reserved Qty.
 			create_material_receipt(items_details, self.warehouse, qty=110)
 			so.create_stock_reservation_entries()
 			so.load_from_db()

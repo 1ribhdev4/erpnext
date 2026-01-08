@@ -31,7 +31,7 @@ def get_columns():
 			"width": 120,
 		},
 		{
-			"label": _("Stock Available"),
+			"label": _("Stock Disponível"),
 			"fieldname": "stock_available",
 			"fieldtype": "Float",
 			"width": 120,

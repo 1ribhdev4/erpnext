@@ -757,7 +757,7 @@ class TestStockAgeing(FrappeTestCase):
 		bal_qty = row[5]
 		range_qty_sum = sum([i for i in row[7:11]])  # get sum of range balance
 
-		# check if value of Available Qty column matches with range bucket post format
+		# check if value of Disponível Qty column matches with range bucket post format
 		self.assertEqual(bal_qty, 0.9)
 		self.assertEqual(bal_qty, range_qty_sum)
 

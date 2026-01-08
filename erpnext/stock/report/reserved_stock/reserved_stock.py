@@ -135,7 +135,7 @@ def get_columns():
 		},
 		{
 			"fieldname": "available_qty",
-			"label": _("Available Qty to Reserve"),
+			"label": _("Disponível Qty to Reserve"),
 			"fieldtype": "Float",
 			"width": 120,
 			"convertible": "qty",

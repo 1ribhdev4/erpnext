@@ -375,7 +375,7 @@ class POSInvoice(SalesInvoice):
 					for item in availability:
 						if flt(item["available"]) < flt(item["required"]):
 							error_msgs.append(
-								_("<li>Packed Item {0}: Required {1}, Available {2}</li>").format(
+								_("<li>Packed Item {0}: Required {1}, Disponível {2}</li>").format(
 									frappe.bold(item["item_code"]),
 									frappe.bold(flt(item["required"], 2)),
 									frappe.bold(flt(item["available"], 2)),
@@ -407,7 +407,7 @@ class POSInvoice(SalesInvoice):
 						)
 					elif is_stock_item and flt(availability) < flt(d.stock_qty):
 						frappe.throw(
-							_("Row #{0}: Item {1} in warehouse {2}: Available {3}, Needed {4}.").format(
+							_("Row #{0}: Item {1} in warehouse {2}: Disponível {3}, Needed {4}.").format(
 								d.idx,
 								item_code,
 								warehouse,

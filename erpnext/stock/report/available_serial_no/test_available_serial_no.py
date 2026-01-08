@@ -28,7 +28,7 @@ class TestStockLedgerReport(FrappeTestCase):
 		frappe.db.rollback()
 
 	def test_available_serial_no(self):
-		report = frappe.get_doc("Report", "Available Serial No")
+		report = frappe.get_doc("Report", "Disponível Serial No")
 
 		make_purchase_receipt(qty=10, item_code="_Test Item with Serial No")
 		data = report.get_data(filters=self.filters)

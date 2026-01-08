@@ -334,7 +334,7 @@ Discount (%),Sleva (%)
 "Employee designation (e.g. CEO, Director etc.).","Označení zaměstnanců (např CEO, ředitel atd.)."
 Please enter 'Repeat on Day of Month' field value,"Prosím, zadejte ""Opakujte dne měsíce"" hodnoty pole"
 Rate at which Customer Currency is converted to customer's base currency,"Sazba, za kterou je zákazník měny převeden na zákazníka základní měny"
-"Available in BOM, Delivery Note, Purchase Invoice, Production Order, Purchase Order, Purchase Receipt, Sales Invoice, Sales Order, Stock Entry, Timesheet","K dispozici v BOM, dodací list, fakturu, výrobní zakázky, objednávky, doklad o koupi, prodejní faktury odběratele, Stock vstupu, časový rozvrh"
+"Disponível in BOM, Delivery Note, Purchase Invoice, Production Order, Purchase Order, Purchase Receipt, Sales Invoice, Sales Order, Stock Entry, Timesheet","K dispozici v BOM, dodací list, fakturu, výrobní zakázky, objednávky, doklad o koupi, prodejní faktury odběratele, Stock vstupu, časový rozvrh"
 Tax Rate,Tax Rate,
 Select Item,Select Položka,
 {0} {1} status is Stopped,{0} {1} status je zastavena,
@@ -785,7 +785,7 @@ Publish Pricing,Publikovat Ceník,
 New Purchase Receipts,Nové Nákup Příjmy,
 Expense Claim Rejected Message,Zpráva o zamítnutí úhrady výdajt,
 Nailing,Báječnt,
-Available Qty,Množství k dispozici,
+Disponível Qty,Množství k dispozici,
 On Previous Row Total,Na předchozí řady Celkem,
 Working Days,Pracovní dny,
 Incoming Rate,Příchozí Rate,
@@ -806,7 +806,7 @@ Currency exchange rate master.,Devizový kurz master.
 Unable to find Time Slot in the next {0} days for Operation {1},Nelze najít časový úsek v příštích {0} dní k provozu {1}
 Plan material for sub-assemblies,Plán materiál pro podsestavy,
 BOM {0} must be active,BOM {0} musí být aktivny,
-Set Status as Available,Nastavit stav as k dispozici,
+Set Status as Disponível,Nastavit stav as k dispozici,
 Please select the document type first,Vyberte první typ dokumentu,
 Cancel Material Visits {0} before cancelling this Maintenance Visit,Zrušit Materiál Návštěvy {0} před zrušením tohoto návštěv údržby,
 Leave Encashment Amount,Nechte inkasa Částka,
@@ -1296,7 +1296,7 @@ Error: {0} > {1},Chyba: {0}> {1}
 Please create new account from Chart of Accounts.,"Prosím, vytvořte nový účet z grafu účtů."
 Maintenance Visit,Maintenance Visit,
 Customer > Customer Group > Territory,Zákazník> Zákazník Group> Territory,
-Available Batch Qty at Warehouse,K dispozici šarže Množství ve skladu,
+Disponível Batch Qty at Warehouse,K dispozici šarže Množství ve skladu,
 Time Log Batch Detail,Time Log Batch Detail,
 Tasks,úkoly,
 Landed Cost Help,Přistálo Náklady Help,
@@ -2355,7 +2355,7 @@ Shrink wrapping,Zmenšit balene,
 Supplier > Supplier Type,Dodavatel> Dodavatel Type,
 Please enter relieving date.,Zadejte zmírnění datum.
 Amt,Amt,
-Serial No {0} status must be 'Available' to Deliver,"Pořadové číslo {0} status musí být ""k dispozici"" doručovat"
+Serial No {0} status must be 'Disponível' to Deliver,"Pořadové číslo {0} status musí být ""k dispozici"" doručovat"
 Only Leave Applications with status 'Approved' can be submitted,"Nechte pouze aplikace s status ""schváleno"" může být předloženy"
 Address Title is mandatory.,Adresa Název je povinný.
 Enter name of campaign if source of enquiry is campaign,"Zadejte název kampaně, pokud zdroj šetření je kampaň"
@@ -2449,7 +2449,7 @@ Time Log {0} must be 'Submitted',"Time Log {0} musí být ""Odesláno"""
 Default Stock UOM,Výchozí Skladem UOM,
 Create Material Requests,Vytvořit Žádosti materiálu,
 School/University,Škola / University,
-Available Qty at Warehouse,Množství k dispozici na skladu,
+Disponível Qty at Warehouse,Množství k dispozici na skladu,
 Billed Amount,Fakturovaná částka,
 Bank Reconciliation,Bank OdsouhlasenM,
 Total Amount To Pay,Celková částka k Zaplatit,
@@ -2715,7 +2715,7 @@ Automatically updated from BOM table,Automaticky aktualizována z BOM tabulky,
 Set as Open,Nastavit jako Otevřít,
 Send automatic emails to Contacts on Submitting transactions.,Posílat automatické e-maily na Kontakty na předložení transakcí.
 "Row {0}: Qty not avalable in warehouse {1} on {2} {3}.
-					Available Qty: {4}, Transfer Qty: {5}","Row {0}: Množství nejsou dostupné iv skladu {1} na {2} {3}.
+					Disponível Qty: {4}, Transfer Qty: {5}","Row {0}: Množství nejsou dostupné iv skladu {1} na {2} {3}.
  Dispozici Množství: {4}, transfer Množství: {5}"
 Sync with Dropbox,Synchronizace s Dropbox,
 Sunday,Neděle,
@@ -3015,7 +3015,7 @@ Cheque Date,Šek Datum,
 Account {0}: Parent account {1} does not belong to company: {2},Účet {0}: Nadřazený účet {1} nepatří ke společnosti: {2}
 Successfully deleted all transactions related to this company!,Úspěšně vypouští všechny transakce související s tímto společnosti!
 Honing,Honován$1,
-"Only Serial Nos with status ""Available"" can be delivered.","Serial pouze Nos se statusem ""K dispozici"" může být dodán."
+"Only Serial Nos with status ""Disponível"" can be delivered.","Serial pouze Nos se statusem ""K dispozici"" může být dodán."
 Probation,Zkouška,
 Default Warehouse is mandatory for stock Item.,Výchozí Sklad je povinný pro živočišnou položky.
 Full Name,Celé jméno/název,
@@ -3227,7 +3227,7 @@ Reports to,Zprávy,
 Enter url parameter for receiver nos,Zadejte url parametr pro přijímače nos,
 Paid Amount,Uhrazené částky,
 Closing Account {0} must be of type 'Liability',"Závěrečný účet {0} musí být typu ""odpovědnosti"""
-Available Stock for Packing Items,K dispozici skladem pro balení položek,
+Disponível Stock for Packing Items,K dispozici skladem pro balení položek,
 Reserved Warehouse is missing in Sales Order,Reserved Warehouse chybí odběratele,
 Item Variant,Položka Variant,
 Setting this Address Template as default as there is no other default,"Nastavení Tato adresa šablonu jako výchozí, protože není jiná výchozí"
@@ -3772,7 +3772,7 @@ Project Id,ID projektu,
 {0} subscribers added,{0} odběratelé z přidann,
 Schedule,Plán,
 Parent Account,Nadřazený účet,
-Available,K dispozici,
+Disponível,K dispozici,
 Reading 3,Čtení 3,
 Hub,Hub,
 Voucher Type,Voucher Type,
@@ -3802,7 +3802,7 @@ Document Type,Typ dokumentu,
 From Supplier Quotation,Z nabídky dodavatele,
 Deduction Type,Odpočet Type,
 Half Day,Půl den,
-Not Available,Není k dispozici,
+Not Disponível,Není k dispozici,
 Min Qty,Min Množstvu,
 Transaction Date,Transakce Datum,
 Planned Qty,Plánované Množstvu,

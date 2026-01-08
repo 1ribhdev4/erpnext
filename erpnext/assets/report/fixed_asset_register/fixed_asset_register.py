@@ -491,7 +491,7 @@ def get_columns(filters):
 		{"label": _("Status"), "fieldtype": "Data", "fieldname": "status", "width": 80},
 		{"label": _("Purchase Date"), "fieldtype": "Date", "fieldname": "purchase_date", "width": 90},
 		{
-			"label": _("Available For Use Date"),
+			"label": _("Disponível For Use Date"),
 			"fieldtype": "Date",
 			"fieldname": "available_for_use_date",
 			"width": 90,
